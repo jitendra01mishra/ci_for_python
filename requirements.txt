@@ -1,4 +1,5 @@
 fastapi==0.92.0
 uvicorn==0.20.0
-httpx
+# Pin httpx to a version compatible with FastAPI/Starlette test client
+httpx==0.23.3
 pytest
